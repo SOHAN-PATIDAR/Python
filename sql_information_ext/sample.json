@@ -1,0 +1,30 @@
+[
+	{
+        "statement_id": 1,
+        "statement_type": "create or insert or update",
+        "target_table_name": [
+            {
+                "type": "from or join",
+                "name": "source_table1"
+            },
+            {
+                "type": "from or join",
+                "name": "source_table2"
+            }
+        ]
+    },
+    {
+        "statement_id": 2,
+        "statement_type": "create or insert or update",
+        "target_table_name": [
+            {
+                "type": "from or join",
+                "name": "source_table1"
+            },
+            {
+                "type": "from or join",
+                "name": "source_table2"
+            }
+        ]
+    }
+]
